@@ -5,7 +5,7 @@ export const datas = [
 			'This is a solution to the Order summary card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.',
 		imageUrl: '/images/component-challenge.png',
 		category: ['Frontend'],
-		url: 'https://github.com/brilliantDjaka/Frontend-Mentor---Profile-card-component-solution'
+		url: 'https://github.com/brilliantDjaka/challenge-component-based-order-summary'
 	},
 	{
 		title: 'Flutter Instant Chat',
