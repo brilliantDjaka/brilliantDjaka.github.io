@@ -3,9 +3,11 @@
 	<a href="/projects">Projects</a>
 	<a href="/social-media">Social Media</a>
 	<a href="/credit">Credit</a>
-	<a class="right" href="/"><div id="medium" /></a>
-	<a href="/"><div id="linkedin" /></a>
-	<a href="/"><div id="github" /></a>
+	<a class="right" href="https://medium.com/@brian.rofiq"><div id="medium" /></a>
+	<a href="https://www.linkedin.com/in/brillant-djaka-irfanuddin-rofiq-3245ba17b/">
+		<div id="linkedin" />
+	</a>
+	<a href="https://github.com/brilliantDjaka"><div id="github" /></a>
 </nav>
 
 <style>
