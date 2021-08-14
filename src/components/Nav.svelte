@@ -12,19 +12,19 @@
 
 <style>
 	#medium {
-		background-image: url('medium.svg');
+		background-image: url('/medium.svg');
 		background-size: contain;
 		height: 28px;
 		width: 28px;
 	}
 	#linkedin {
-		background-image: url('linkedin-logo.svg');
+		background-image: url('/linkedin-logo.svg');
 		background-size: contain;
 		height: 28px;
 		width: 28px;
 	}
 	#github {
-		background-image: url('github.svg');
+		background-image: url('/github.svg');
 		background-size: contain;
 		height: 28px;
 		width: 28px;
