@@ -2,7 +2,7 @@
 	<div class="code-wrapper">
 		<p>
 			<span style="color: #36f9f6;">&lt;</span>div<span style="color: #36f9f6;">&gt;</span>
-			<span style="color: white;"> Checkout My Project ... </span>
+			<span style="color: white;"> Checkout My Projects ... </span>
 			<span style="color: #36f9f6;">&lt;</span>div/<span style="color: #36f9f6;">&gt;</span>
 		</p>
 		<p>

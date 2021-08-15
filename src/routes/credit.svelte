@@ -2,6 +2,10 @@
 	import Nav from '../components/Nav.svelte';
 </script>
 
+<svelte:head>
+	<title>Credit</title>
+</svelte:head>
+
 <Nav />
 <div class="container">
 	<p class="title">Credit</p>

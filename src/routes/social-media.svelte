@@ -3,6 +3,10 @@
 	import { userData } from '../../static/content.json';
 </script>
 
+<svelte:head>
+	<title>Social Media</title>
+</svelte:head>
+
 <Nav />
 <div class="container">
 	<p class="title">

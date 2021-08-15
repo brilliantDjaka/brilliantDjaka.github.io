@@ -3,7 +3,7 @@
 		<p>
 			console<span style="color: white;">.</span><span style="color: #34e7e6;">log</span><span
 				style="color: #e3c757;">(</span
-			><span style="color:#ff8b39 ;">'hello, I’m Brian'</span><span style="color: #e3c757;">)</span>
+			><span style="color:#ff8b39 ;">'Hello, I’m Brian'</span><span style="color: #e3c757;">)</span>
 		</p>
 		<p>
 			<span style="color: #e3c757;">let</span> job <span style="color: white;">=</span>

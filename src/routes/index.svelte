@@ -4,6 +4,10 @@
 	import CheckoutProject from '../components/CheckoutProject.svelte';
 </script>
 
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
+
 <Nav />
 <div class="container">
 	<p class="title">Brilliant Djaka I.R</p>

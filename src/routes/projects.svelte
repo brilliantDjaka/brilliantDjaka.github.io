@@ -4,6 +4,10 @@
 	let selected = '';
 </script>
 
+<svelte:head>
+	<title>Projects</title>
+</svelte:head>
+
 <Nav />
 <div class="container">
 	<p class="title">
