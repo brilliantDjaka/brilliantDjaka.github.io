@@ -1,6 +1,7 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-	import { datas, category } from '../../static/content.json';
+	import { datas, categories } from '../../static/content.json';
+	let selected = '';
 </script>
 
 <Nav />
@@ -8,14 +9,26 @@
 	<p class="title">
 		Projects <span style="color: #CA3D3D;">Page</span>
 	</p>
+
+	<div class="row">
+		<p style="margin-right: 5px;">Category :</p>
+		<select bind:value={selected}>
+			<option selected value="">All</option>
+			{#each categories as category}
+				<option value={category}>{category}</option>
+			{/each}
+		</select>
+	</div>
 	{#each datas as data}
-		<a class="content" href={data.url}>
-			<img src={data.imageUrl} alt={data.title} width="324" height="155" />
-			<div class="sub-content">
-				<p class="sub-title">{data.title}</p>
-				<p>{data.description}</p>
-			</div>
-		</a>
+		{#if !selected || data.category.includes(selected)}
+			<a class="content" href={data.url}>
+				<img src={data.imageUrl} alt={data.title} width="324" height="155" />
+				<div class="sub-content">
+					<p class="sub-title">{data.title}</p>
+					<p>{data.description}</p>
+				</div>
+			</a>
+		{/if}
 	{/each}
 </div>
 
@@ -61,5 +74,17 @@
 		font-family: 'Roboto', sans-serif;
 		font-size: 36px;
 		font-weight: 300;
+	}
+	.row {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	select {
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 5px;
+		height: 30px;
+		width: 200px;
 	}
 </style>

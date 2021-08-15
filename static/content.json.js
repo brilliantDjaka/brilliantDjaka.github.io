@@ -29,7 +29,7 @@ export const datas = [
 		url: 'https://github.com/brilliantDjaka/shorten-your-url'
 	}
 ];
-export const category = ['Frontend', 'Backend', 'Prototype', 'Complete App'];
+export const categories = ['Frontend', 'Backend', 'Prototype', 'Complete App'];
 export const userData = [
 	{
 		alt: 'Github',
