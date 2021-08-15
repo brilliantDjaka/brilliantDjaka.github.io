@@ -29,7 +29,7 @@
 				<img src={data.imageUrl} alt={data.title} width="324" height="155" />
 				<div class="sub-content">
 					<p class="sub-title">{data.title}</p>
-					<p>{data.description}</p>
+					<p>{data.description} <a href={data.sourceCode}>(source code)</a></p> 
 				</div>
 			</a>
 		{/if}

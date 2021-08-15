@@ -5,28 +5,32 @@ export const datas = [
 			'This is a solution to the Order summary card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.',
 		imageUrl: '/images/component-challenge.png',
 		category: ['Frontend'],
-		url: 'https://github.com/brilliantDjaka/challenge-component-based-order-summary'
+		url: 'https://maddening-zipper.surge.sh/',
+		sourceCode:'https://github.com/brilliantDjaka/challenge-component-based-order-summary'
 	},
 	{
 		title: 'Flutter Instant Chat',
 		description: 'Instant Chat Web App Built by flutter & firebase',
 		imageUrl: '/images/flutter-instant-chat.png',
 		category: ['Complete App'],
-		url: 'https://brilliantdjaka.github.io/flutter-instant-chat/'
+		url: 'https://brilliantDjaka.github.io/flutter-instant-chat/',
+		sourceCode: 'https://github.com/brilliantDjaka/flutter-instant-chat'
 	},
 	{
 		title: 'Simple Todo API with nest.js',
 		description: 'Just simple todo api created with nest.js framework',
 		imageUrl: '/images/simple-todo-api-nest.png',
 		category: ['Backend'],
-		url: 'https://github.com/brilliantDjaka/simple-todo-api-with-nest'
+		url: 'https://github.com/brilliantDjaka/simple-todo-api-with-nest',
+		sourceCode: 'https://github.com/brilliantDjaka/simple-todo-api-with-nest'
 	},
 	{
 		title: 'Short Url',
 		description: 'App to shorten your url',
 		imageUrl: '/images/short-url.png',
 		category: ['Complete App'],
-		url: 'https://github.com/brilliantDjaka/shorten-your-url'
+		url: 'https://pendek-kan.deta.dev',
+		sourceCode: 'https://github.com/brilliantDjaka/shorten-your-url'
 	}
 ];
 export const categories = ['Frontend', 'Backend', 'Prototype', 'Complete App'];
