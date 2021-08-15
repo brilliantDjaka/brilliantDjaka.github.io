@@ -28,8 +28,14 @@
 			<a class="content" href={data.url}>
 				<img src={data.imageUrl} alt={data.title} width="324" height="155" />
 				<div class="sub-content">
-					<p class="sub-title">{data.title}</p>
-					<p>{data.description} <a href={data.sourceCode}>(source code)</a></p> 
+					<div class="row">
+						<p class="sub-title">{data.title}</p>
+						<a style="width: min-content; max-height: min-content;" href={data.sourceCode}
+							><div class="git" /></a
+						>
+					</div>
+
+					<p>{data.description}</p>
 				</div>
 			</a>
 		{/if}
@@ -37,6 +43,12 @@
 </div>
 
 <style>
+	.git {
+		background-image: url('/github.svg');
+		background-size: contain;
+		height: 28px;
+		width: 28px;
+	}
 	img {
 		margin-right: 25px;
 		border: 1px solid black;
@@ -74,10 +86,10 @@
 		font-size: 18px;
 	}
 	.sub-title {
-		margin-bottom: 20px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 36px;
 		font-weight: 300;
+		margin-right: 10px;
 	}
 	.row {
 		display: flex;
