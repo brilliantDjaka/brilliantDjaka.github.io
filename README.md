@@ -1,3 +1,3 @@
 # Profile Page
 
-Deployed to : https://brianrofiq.surge.sh
+Deployed to : https://brianrofiq.vercel.app/
